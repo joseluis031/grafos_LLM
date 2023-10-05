@@ -7,7 +7,7 @@ Hemos dado cono una manera de solucionar uno de los mayores fallos actuales que 
 
 Primero hemos creado un grafo con la información "buena" que contiene palabras como "IA", "Automático" o "Chatbots. 
 
-A continuación definimos la función corregir_respuesta que cogerá la frase incorrecta que simula una respuesta incorrecta que nos habría proporcionado ChatGPT, descompondrá la oración para comparar palabra a palabra si esta pertenece al grafo, de ser así no la modificará porque es información correcta, pero de no estar en el grafo se sustituirá por un "<<CORREGIDO>>".
+A continuación definimos la función corregir_respuesta que cogerá la frase incorrecta que simula una respuesta incorrecta que nos habría proporcionado ChatGPT, descompondrá la oración para comparar palabra a palabra si esta pertenece al grafo, de ser así no la modificará porque es información correcta, pero de no estar en el grafo se sustituirá por un <<CORREGIDO>>.
 
 Por último para comprobar que el código funciona hemos incluido un ejemplo para que nos corrija una frase.
 
@@ -55,4 +55,4 @@ Respuesta Original: La IA y el Aprendizaje Automático son componentes clave de 
 Respuesta Corregida: <<CORREGIDO>> IA <<CORREGIDO>> <<CORREGIDO>> Aprendizaje Automático <<CORREGIDO>> <<CORREGIDO>> <<CORREGIDO>> <<CORREGIDO>> <<CORREGIDO>> Chatbots
 ```
 
-Como podemos observar ha cambiado todas las palabras de la oración que no estaban incluidas en el grafo por "<<CORREGIDO>>", por tanto damos por válido el código.
+Como podemos observar ha cambiado todas las palabras de la oración que no estaban incluidas en el grafo por <<CORREGIDO>>, por tanto damos por válido el código.
