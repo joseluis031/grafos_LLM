@@ -56,6 +56,13 @@ Respuesta Corregida: <<CORREGIDO>> IA <<CORREGIDO>> <<CORREGIDO>> Aprendizaje Au
 ```
 
 Como podemos observar ha cambiado todas las palabras de la oración que no estaban incluidas en el grafo por ```<<CORREGIDO>>```, por tanto damos por válido el código.
+## Evaluación
+
+La implementación de métricas para evaluar la precisión, relevancia y confiabilidad es esencial para la evaluación de modelos de aprendizaje automático.
+
+Nuestro código es preciso al 100% dentro del grafo de conocimiento que hemos seleccionado, para que sea mas relevante haria falta aumentar el grafo de conocimiento y la confiabilidad
+de nuestro código es elevada
+
 
 ## Conclusiones
 
