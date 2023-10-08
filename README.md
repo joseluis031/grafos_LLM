@@ -56,3 +56,7 @@ Respuesta Corregida: <<CORREGIDO>> IA <<CORREGIDO>> <<CORREGIDO>> Aprendizaje Au
 ```
 
 Como podemos observar ha cambiado todas las palabras de la oración que no estaban incluidas en el grafo por ```<<CORREGIDO>>```, por tanto damos por válido el código.
+
+## Conclusiones
+
+Hemos intentado mejorar las soluciones inexactas o incorrectas que proporciona ChatGPT, utilizando grafos de conocimiento en los que tenemos registradas las que serían las palabras correctas. Ahora usando la función corregir_respuesta conseguireríamos que una respuesta inexacta que nos ha proporcionado el chat fuese revisada palabra a palabra para que si estas no etuviesen dentro del grafo de conocimiento, fuesen editadas por las correctas que fuesen convenientes. En nuetro caso como no tenemos la misma cantidad de información que puede tener ChatGPT, las palabras incorrectas las cambiamos por un ```<<CORREGIDO>>```.
